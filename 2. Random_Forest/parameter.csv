@@ -1,0 +1,2 @@
+,n_estimators,max_depth,min_samples_split,min_samples_leaf,min_split_entropy,colsample_bytree,rowsample,train_acc,val_acc,train_f1,val_f1
+0,15.0,-1.0,6.0,2.0,0.0,0.5,0.8,0.997141600703606,0.9956063268892794,0.9970162956162497,0.9955555555555555
