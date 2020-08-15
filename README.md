@@ -1,4 +1,4 @@
-[toc]
+
 
 # DataMining_BUAA
 
@@ -30,6 +30,10 @@
 ### 经验
 
 任务量较大，如果你希望在大作业比赛中取得一个不错的成绩，尤其是希望能进复赛，那么少不了炼丹的工作，需要时间投入，另外也得找些靠谱的队友。小作业时间也挺紧的，手动实现一个模型并不简单。
+
+
+
+
 
 ## 支持向量机 SVM
 
@@ -536,11 +540,9 @@ def test():
 	outputDict.to_csv('prediction.csv')
 ```
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20191229134314358.png" alt="image-20191229134314358"  />
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20191229134336319.png" alt="image-20191229134336319"  />
 
-![image-20191229134349456](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20191229134349456.png)
+
 
 ## 随机森林 Random Forest
 
@@ -831,7 +833,3 @@ def load_model(filename):
     file = open(filename, 'rb')
     return pickle.load(file)
 ```
-
-
-
-## 
